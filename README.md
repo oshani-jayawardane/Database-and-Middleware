@@ -6,7 +6,7 @@ TO-DO:
 2. add contect to middleware sections
 3. change the options selection - UpdateDB.js and AddDB.js
 
-'''
+```
 {/* <label for="dbModel">Primary Database Model:</label><br />
                 <select name="dbModel" required>
                     <option value="Relational DBMS">Relational DBMS</option>
@@ -26,4 +26,4 @@ TO-DO:
                     <option value="Content stores">Content stores</option>
                     <option value="Navigational DBMS">Navigational DBMS</option>
                 </select><br /> */}
-'''
+```
