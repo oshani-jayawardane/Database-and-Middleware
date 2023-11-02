@@ -14,7 +14,7 @@ const Home = () => {
                     <Link to="/middleware">
                         <button>Application Servers</button>
                     </Link>
-                    <Link to="/admin">
+                    <Link to="/admin/login">
                         <button>Admin</button>
                     </Link>
                 </div>
@@ -22,15 +22,18 @@ const Home = () => {
 
             <div className="container">
                 <div>
-                    <h4>Analytics</h4>
+                    <h4>Analytics (2023)</h4>
                 </div>
                 <div>
                     <p>Databases Popularity Analytics</p>
-                    <img src="database-popularity.png" alt="Databases Popularity Analytics Pie Chart"/>
+                    <img className="center" src="database-popularity.png" alt="Databases Popularity Analytics Pie Chart"/>
+                    <p>Source: https://db-engines.com/en/ranking</p>
                 </div>
+                <hr />
                 <div>
                     <p>Application Server Market Share Analytics</p>
-                    <img src="middleware-popularity.png" alt="Application Server Market Share Analytics Pie Chart"/>
+                    <img className="center" src="middleware-popularity.png" alt="Application Server Market Share Analytics Pie Chart"/>
+                    <p>Source: </p>
                 </div>
             </div>
 
