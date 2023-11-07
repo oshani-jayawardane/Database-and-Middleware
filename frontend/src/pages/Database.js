@@ -37,7 +37,7 @@ const Database = () => {
                             {databases
                                 .filter(database => database.dbModel === dbModel)
                                 .map(database => (
-                                    <Tile key={database._id} database={database} />
+                                    <Tile key={database._id} props={database} linkTo="database"/>
                                 ))}
                         </div>
                     </div>

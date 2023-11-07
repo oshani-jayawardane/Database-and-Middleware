@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const DBroutes = require('./routes/dbroutes');
-// const MWroutes = require('./routes/mwroutes');
+const MWroutes = require('./routes/mwroutes');
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -74,7 +74,7 @@ app.post('/admin/login', (req, res) => {
 
 // routes
 app.use('/api/database', DBroutes);
-// app.use('/api/middleware', MWroutes);
+app.use('/api/middleware', MWroutes);
 
 // Protected route
 // app.use('/api/database', verifyToken, DBroutes);

@@ -72,7 +72,7 @@ const DBTable = (database) => {
                             <td>{database.ReplicationTools.join(' , ')}</td>
                             <td>{database.HighAvailability.join(' , ')}</td>
                             <td>
-                                <button className="update-btn"><a href={`/admin/update/${database._id}`}>Update</a></button>
+                                <button className="update-btn"><a href={`/admin/update-database/${database._id}`}>Update</a></button>
                                 <button className="delete-btn" onClick={() => handleDelete(database._id, database.name)}>Delete</button>
                             </td>
                         </tr>
